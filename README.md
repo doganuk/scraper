@@ -5,11 +5,12 @@ scrape subscriptions
 <br> please change the branch to master
 <br> Git pull
 <br> npm -i
-
-
-<br><b>If it does not work please install:</b>
-<br>npm i --global mocha
 <br>npm install puppeteer
+<br> node node_modules/puppeteer/install.js
+
+<br><b>If test does not work please install:</b>
+<br>npm i --global mocha
+
 
 Tested on node version 18
 
