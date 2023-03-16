@@ -1,0 +1,21 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.7.5"
+  },
+  "type": "module",
+  "description": "",
+  "types": "module",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0"
+  }
+}
