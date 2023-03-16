@@ -7,7 +7,7 @@ scrape subscriptions
 <br> npm -i
 
 
-<br><b>In case of if it s not work please install</b>
+<br><b>If it does not work please install:</b>
 <br>npm i --global mocha
 <br>npm install puppeteer
 
