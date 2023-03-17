@@ -23,10 +23,8 @@ const getSubscriptions = async () => {
     const packageHeaderList = Array.from(document.querySelectorAll(".header.dark-bg"));
    
     // Convert the packageListList to an iterable array
-    // For each quote fetch the text and author
     return Array.from(packageList).map((quote, index) => {
       // Fetch the sub-elements from the previously fetched package
-      // Get the details and return it (`.innerText`)
       const packageName = quote.querySelector(`.package-name`).innerText;
       const packageDescription = quote.querySelector(".package-description").innerText;
       const packagePrice = quote.querySelector(".package-price").innerText;

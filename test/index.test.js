@@ -4,7 +4,7 @@ import puppeteer from 'puppeteer';
 describe('getSubscriptions', function() {
   it('should return an array of package details', async function() {
     const browser = await puppeteer.launch({
-      headless: true, // run in headless mode for the test
+      headless: true, 
       defaultViewport: null,
     });
     const page = await browser.newPage();
